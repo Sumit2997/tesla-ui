@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-image: url(Homepage-SolarPanels-01-Desktop.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+span {
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+span:hover {
+    background-color: rgba(34, 34, 34, 0.65);
+}
+
+.nav-a {
+    height: 50px;
+    width: 140px;
+    margin-left: 2rem;
+}
+
+.nav-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-right: 2rem;
+}
+
+.left {
+    margin-left: 2rem;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 68%;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0px 0px;
+}
+
+.mid {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: serif;
+    padding: 22px 0px 20px;
+}
+
+.bt {
+    display: flex;
+    gap: 1rem;
+}
+
+.bt-1,
+.bit-1 {
+    font-weight: 650;
+    background-color: #EEEEEE;
+    font-size: 1.3rem;
+    width: 200px;
+    height: 35px;
+    border-radius: 9px;
+    border: none;
+}
+
+.bt-2,
+.bit-2 {
+    font-weight: 650;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.65);
+    font-size: 1.3rem;
+    width: 200px;
+    height: 35px;
+    border-radius: 9px;
+    border: none;
+}
+
+#main {
+    background-position: center;
+    background-size: cover;
+    height: 790px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-1 {
+    background-image: url(Homepage-Model-X-Desktop-LHD.avif);
+}
+
+.main-2 {
+    background-image: url(Homepage-Model-Y-Global-Desktop.avif);
+}
+
+.main-3 {
+    background-image: url(Homepage-Model-X-Desktop-LHD.avif);
+}
+
+.main-4 {
+    background-image: url(Homepage-SolarRoof-Desktop-Global.avif);
+}
+
+.main-a {
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-b {
+    margin-top: 380px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bit-1,
+.bit-2 {
+    font-size: 17px;
+    padding: 5px 35px;
+    height: 40px;
+    width: 240px;
+}
+
+.main-c {
+    margin-bottom: 45px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.footer {
+    background-image: url(Homepage-Accessories-Desktop-NA-APAC.avif);
+    background-position: center;
+    background-size: cover;
+    height: 790px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-a {
+    padding: 100px 0px 0px 0px;
+}
+
+.foot-b {
+    font-weight: 650;
+    font-size: 1rem;
+    width: 300px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    margin-top: 390px;
+}
+
+.foot-c {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-a {
+        margin-left: 0;
+    }
+
+    .nav-c {
+        margin-right: 0;
+    }
+
+    .left {
+        margin: 0;
+        margin-top: 5%;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .mid {
+        font-size: 18px;
+    }
+
+    .main-b {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .bit-1,
+    .bit-2 {
+        width: 180px;
+        font-size: 15px;
+    }
+}
